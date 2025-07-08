@@ -37,19 +37,26 @@ Bu proje, Next.js App Router ve TypeScript kullanılarak geliştirilmiş bir qui
 
 ## 📁 Proje Yapısı
 
-''' 
+```
 quiz-app/
 ├── app/
-│ ├── page.tsx # Anasayfa (/quiz yönlendirmesi)
-│ ├── quiz/page.tsx # Quiz sayfası
-│ └── result/page.tsx # Sonuç sayfası
-├── components/ # (İsteğe bağlı bileşenler)
-├── context/QuizContext.tsx # Kullanıcı cevapları için context
-├── data/questions.ts # Statik soru verisi
-├── types/types.ts # Tip tanımlamaları
+│   ├── page.tsx              # Anasayfa (/quiz yönlendirmesi)
+│   ├── quiz/page.tsx         # Quiz sayfası
+│   └── result/page.tsx       # Sonuç sayfası
+├── components/               # İsteğe bağlı bileşenler
+├── context/
+│   └── QuizContext.tsx       # Kullanıcı cevapları için context
+├── data/
+│   └── questions.ts          # Statik soru verisi
+├── types/
+│   └── types.ts              # Tip tanımlamaları
 ├── public/
-├── styles/ # Tailwind (globals.css)
-'''
+├── styles/                   # Tailwind (globals.css)
+```
+
+
+
+
 
 ---
 
