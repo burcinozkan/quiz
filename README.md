@@ -37,7 +37,8 @@ Bu proje, Next.js App Router ve TypeScript kullanılarak geliştirilmiş bir qui
 
 ## 📁 Proje Yapısı
 
-''' quiz-app/
+''' 
+quiz-app/
 ├── app/
 │ ├── page.tsx # Anasayfa (/quiz yönlendirmesi)
 │ ├── quiz/page.tsx # Quiz sayfası
