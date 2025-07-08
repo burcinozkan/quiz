@@ -37,7 +37,7 @@ Bu proje, Next.js App Router ve TypeScript kullanılarak geliştirilmiş bir qui
 
 ## 📁 Proje Yapısı
 
-quiz-app/
+''' quiz-app/
 ├── app/
 │ ├── page.tsx # Anasayfa (/quiz yönlendirmesi)
 │ ├── quiz/page.tsx # Quiz sayfası
@@ -48,6 +48,7 @@ quiz-app/
 ├── types/types.ts # Tip tanımlamaları
 ├── public/
 ├── styles/ # Tailwind (globals.css)
+'''
 
 ---
 
@@ -56,7 +57,7 @@ quiz-app/
 1. Bu repoyu klonlayın:
 
 ```bash
-git clone https://github.com/kullaniciadi/quiz-app.git
+git clone https://github.com/burcinozkan/quiz.git
 cd quiz-app
 
 npm install
